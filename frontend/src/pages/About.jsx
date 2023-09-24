@@ -40,10 +40,9 @@ export const About = () => {
         </p>
         </div>
       </div>
-      </div>
-
     </Layout>
   );
 };
 
 
+export default About
