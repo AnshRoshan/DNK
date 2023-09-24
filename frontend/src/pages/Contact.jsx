@@ -9,7 +9,7 @@ const Contact = () => {
           <img
             src="/images/contactus.jpeg"
             alt="contactus"
-            style={{ width: "100%" }}
+            style={{ width: "90%" }}
           />
         </div>
         <div className="col-md-4">
