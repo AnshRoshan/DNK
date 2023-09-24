@@ -4,6 +4,7 @@ import Layout from "../components/Layout/Layout";
 const About = () => {
   return (
     <Layout>
+      <div className="col-md-6 ">
       <img
             src="/logo2.jpg"
             alt="DAK GHAR NIRYAT KENDRA"
