@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react'
+import { About } from "../../pages/About"
 
 const menuItems = [
   {
@@ -154,4 +155,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
