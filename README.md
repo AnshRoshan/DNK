@@ -39,10 +39,32 @@ These instructions will help you set up and run the DNK Web Portal locally for d
 We welcome contributions from the community. If you'd like to contribute to the project, please follow these steps:
 
 1. Fork the repository on GitHub.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with clear and concise commit messages.
-4. Push your changes to your fork.
-5. Submit a pull request with a detailed description of your changes.
+2.
+    a. Clone this repository to your local machine:
+
+   ```
+   git clone https://https://github.com/anshace/DNK.git
+   ```
+
+    b. Navigate to the specific project directory you're interested in:
+
+   ```
+   cd DNK
+   ```
+3. Install the node package 
+  ```
+  cd backend
+  npm install
+  ```
+  In case of frontend use:
+  ```
+  cd frontend
+  npm install --force
+  ```
+4. Create a new branch for your feature or bug fix.
+6. Make your changes and commit them with clear and concise commit messages.
+7. Push your changes to your fork.
+8. Submit a pull request with a detailed description of your changes.
 
 ## Reporting Issues
 
