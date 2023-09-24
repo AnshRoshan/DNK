@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <Layout>
       <div className="col-md-6 ">
-        <img
+      <img
             src="/logo2.jpg"
             alt="DAK GHAR NIRYAT KENDRA"
             style={{float:"left",
@@ -40,6 +40,8 @@ export const About = () => {
         </p>
         </div>
       </div>
+      </div>
+
     </Layout>
   );
 };

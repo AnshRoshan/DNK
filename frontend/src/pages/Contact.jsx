@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <Layout>
       <h1 className="text-center text-4xl">Contact Us</h1>
-
       <div className="row contactus ">
+        
         <div className="col-md-6 ">
           <img
             src="/images/contactus.jpeg"
@@ -15,20 +15,57 @@ const Contact = () => {
           />
         </div>
         <div className="col-md-4">
-          <h1 className="bg-dark p-2 text-white text-center">CONTACT US</h1>
-          <p className="text-justify mt-2">
-            any query and info about prodduct feel free to call anytime we 24X7
-            vaialible
-          </p>
-          <p className="mt-3">
-            <BiMailSend /> : www.help@ecommerceapp.com
-          </p>
-          <p className="mt-3">
-            <BiPhoneCall /> : 012-3456789
-          </p>
-          <p className="mt-3">
-            <BiSupport /> : 1800-0000-0000 (toll free)
-          </p>
+          
+        <label htmlFor="name" className="text-xl">First Name: </label>
+        
+        <input placeholder="First Name" type="text" id="name" className=" p-3 m-2 rounded-lg
+                    border-2 border-grey-400 bg-white-100
+                    focus:outline-none" />
+        <br />
+        <label htmlFor="lastName" className="text-xl">Last name: </label>
+        <input
+            placeholder="example@corp.com"
+            type="text"
+            name="lastName"
+            className=" p-3 m-2 rounded-lg
+                    border-2 border-grey-400 bg-white-100
+                    focus:outline-none"
+            tabIndex="2"
+            id="lastName"
+       />
+       <br />
+       <label htmlFor="email" className="text-xl">Email:   </label>
+<input
+     type="email"
+     name="email"
+     id="email"
+     className="placeholder-gray-500 p-3 m-2 rounded-lg
+     border-2 border-grey-400 bg-white-100
+     focus:outline-none"
+     placeholder="example@gmail.com"
+     tabIndex="3"
+/>
+<br />
+<br />
+<div className="w-96">
+<label htmlFor="message" className="text-2xl">Message: </label>
+  <div className="relative w-full min-w-[200px]">
+    
+    <textarea
+      id="message"
+      class="peer h-full min-h-[100px] w-full resize-none rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50"
+      placeholder=" "
+    ></textarea>
+    <label class="before:content[' '] after:content[' '] pointer-events-none absolute left-0 -top-1.5 flex h-full w-full select-none text-[11px] font-normal leading-tight text-blue-gray-400 transition-all before:pointer-events-none before:mt-[6.5px] before:mr-1 before:box-border before:block before:h-1.5 before:w-2.5 before:rounded-tl-md before:border-t before:border-l before:border-blue-gray-200 before:transition-all after:pointer-events-none after:mt-[6.5px] after:ml-1 after:box-border after:block after:h-1.5 after:w-2.5 after:flex-grow after:rounded-tr-md after:border-t after:border-r after:border-blue-gray-200 after:transition-all peer-placeholder-shown:text-sm peer-placeholder-shown:leading-[3.75] peer-placeholder-shown:text-blue-gray-500 peer-placeholder-shown:before:border-transparent peer-placeholder-shown:after:border-transparent peer-focus:text-[11px] peer-focus:leading-tight peer-focus:text-pink-500 peer-focus:before:border-t-2 peer-focus:before:border-l-2 peer-focus:before:border-pink-500 peer-focus:after:border-t-2 peer-focus:after:border-r-2 peer-focus:after:border-pink-500 peer-disabled:text-transparent peer-disabled:before:border-transparent peer-disabled:after:border-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500">
+      Message
+    </label>
+  </div>
+</div>
+
+<br />
+<button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+  Submit
+</button>
         </div>
       </div>
     </Layout>
