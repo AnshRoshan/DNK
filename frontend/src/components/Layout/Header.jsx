@@ -1,8 +1,7 @@
-'use client'
-
 import React from 'react'
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { About } from "../../pages/About"
+import { NavLink } from 'react-router-dom'
 
 const menuItems = [
   {
@@ -22,6 +21,10 @@ const menuItems = [
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
+  // Define the function to handle the click and navigate to the login page
+  function handleLoginClick() {
+    window.location.href = '/login';
+  }
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
@@ -64,18 +67,18 @@ function Header() {
           </ul>
         </div>
         <div className="hidden space-x-2 lg:block">
-          <button
-            type="button"
+          <NavLink
+            to="/signup"
             className="rounded-md bg-transparent px-3 py-2 text-sm font-semibold text-black hover:bg-black/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black underline"
           >
             Sign Up
-          </button>
-          <button
-            type="button"
+          </NavLink>
+          <NavLink
+            to="/login"
             className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Log In
-          </button>
+          </NavLink>
         </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
@@ -132,20 +135,18 @@ function Header() {
                   </nav>
                 </div>
                 <div className="mt-2 space-y-2">
-                  <button
-                    type="button"
+                  <NavLink
+                    to="/signup"
                     className="w-full rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                   >
                     Sign In
-                  </button>
-                  <button
-                    type="button"
+                  </NavLink>
+                  <NavLink
+                    to="/login"
                     className="w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                    // onClick={}
-                    >
+                  >
                     Log In
-                  </button>
-
+                  </NavLink>
                 </div>
               </div>
             </div>

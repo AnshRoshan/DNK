@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Policy from "./pages/Policy";
 import Pagenotfound from "./pages/Pagenotfound";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 function App() {
   return (
     <>
@@ -12,6 +14,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/policy" element={<Policy />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </>
