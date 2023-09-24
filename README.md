@@ -43,7 +43,7 @@ We welcome contributions from the community. If you'd like to contribute to the 
     a. Clone this repository to your local machine:
 
    ```
-   git clone https://https://github.com/anshace/DNK.git
+   git clone https://github.com/anshace/DNK.git
    ```
 
     b. Navigate to the specific project directory you're interested in:
