@@ -4,7 +4,6 @@ import Layout from "../components/Layout/Layout";
 const About = () => {
   return (
     <Layout>
-      <h1 className="text-center text-4xl">Contact Us</h1>
       <div className="row contactus ">
         <div className="col-md-6 ">
           <img
