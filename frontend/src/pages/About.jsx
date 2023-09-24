@@ -4,12 +4,12 @@ import Layout from "../components/Layout/Layout";
 export const About = () => {
   return (
     <Layout>
-      <div className="col-md-6 ">
+      <div className="col-md-6">
       <img
             src="/logo2.jpg"
             alt="DAK GHAR NIRYAT KENDRA"
             style={{float:"left",
-            width:"20%"}}
+            width:"10%"}}
         /> 
         <img
             src="/logo3.jpg"
@@ -39,7 +39,6 @@ export const About = () => {
             The expansion of Dak Ghar Niryat Kendra in Tamil Nadu reflects India Post's commitment towards facilitating trade and fostering economic growth. By offering convenient access to export-related services, these centers enable businesses to enhance their efficiency by reducing cost and ensuring smooth operation. We encourage exporters and entrepreneurs of Tamil Nadu to relish the benefits and services offered by Dak Ghar Niryat Kendra.
         </p>
         </div>
-      </div>
       </div>
 
     </Layout>
