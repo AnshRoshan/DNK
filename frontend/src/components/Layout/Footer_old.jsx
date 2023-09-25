@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <hr className='mt-6' />
-      <section className='relative overflow-hidden bg-sky-950 text-white py-8'>
+      <section className='relative overflow-hidden bg-white py-8'>
         <div className='container relative z-10 mx-auto px-4'>
           <div className='-m-8 flex flex-wrap items-center justify-between'>
             <div className='w-auto p-8'>
@@ -17,22 +17,22 @@ const Footer = () => {
             <div className='w-auto p-8'>
               <ul className='-m-5 flex flex-wrap items-center'>
                 <li className='p-5'>
-                  <a className='font-medium text-white-600 hover:text-white-700' href='/policy'>
+                  <a className='font-medium text-gray-600 hover:text-gray-700' href='/policy'>
                     Privacy Policy
                   </a>
                 </li>
                 <li className='p-5'>
-                  <a className='font-medium text-white-600 hover:text-white-700' href='/'>
+                  <a className='font-medium text-gray-600 hover:text-gray-700' href='/'>
                     Terms of Service
                   </a>
                 </li>
                 <li className='p-5'>
-                  <a className='font-medium text-white-600 hover:text-white-700' href='#'>
+                  <a className='font-medium text-gray-600 hover:text-gray-700' href='#'>
                     Return Policy
                   </a>
                 </li>
                 <li className='p-5'>
-                  <a className='font-medium text-white-600 hover:text-white-700' href='/contact'>
+                  <a className='font-medium text-gray-600 hover:text-gray-700' href='/contact'>
                     Contact Us
                   </a>
                 </li>
@@ -42,7 +42,7 @@ const Footer = () => {
               <div className='-m-1.5 flex flex-wrap'>
                 <div className='w-auto p-1.5'>
                   <a href='#'>
-                    <div className='bg-white flex h-8 w-8 items-center justify-center rounded-full border border-white-300 hover:border-white-400'>
+                    <div className='flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400'>
                       <svg
                         width='8'
                         height='14'
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
                 <div className='w-auto p-1.5'>
                   <a href='#'>
-                    <div className='bg-white flex h-8 w-8 items-center justify-center rounded-full border border-white-300 hover:border-white-400'>
+                    <div className='flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400'>
                       <svg
                         width='14'
                         height='11'
@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
                 <div className='w-auto p-1.5'>
                   <a href='#'>
-                    <div className='bg-white flex h-8 w-8 items-center justify-center rounded-full border border-white-300 hover:border-white-400'>
+                    <div className='flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400'>
                       <svg
                         width='16'
                         height='15'
@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center ">
-            Made by Team: <span className="font-bold uppercase shadow ">Code Innovators</span>
+            Made by Team Code Innovators
           </div>
         </div>
       </section>
