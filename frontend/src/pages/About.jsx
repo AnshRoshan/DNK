@@ -3,8 +3,8 @@ import Layout from "../components/Layout/Layout";
 
 export const About = () => {
   return (
-    <div className="container">
-<Layout>
+    
+<Layout className=""> 
     
       <div className="col-md-6">
       <img
@@ -22,7 +22,7 @@ export const About = () => {
       </div>
       <div className="row contactus ">
         <div className="col-md-4">
-          <p className="text-justify mt-80 mr-8 ">  
+          <p className="text-justify mt-80  mr-8  ">  
             Dak Ghar Niryat Kendra (DNK) is an initiative from the Department of Posts and CBIC. The name translates to "export facilitation center". The service aims to help small and medium business exporters.
             DNKs are a one-stop destination for exporters. They provide assistance with export-related documentation, logistics, customs procedures, and packing.
             Exporters can electronically file a Portal Bill of Export and then present the parcel at a DNK for export. 122 DNKs have been opened in Post.
@@ -43,8 +43,7 @@ export const About = () => {
         </div>
       </div>
       </Layout>
-    </div >
-    
+     
   );
 };
 
