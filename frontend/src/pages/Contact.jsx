@@ -4,13 +4,9 @@ import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
 const Contact = () => {
   return (
     <Layout>
-      <div class="mx-auto max-w-7xl px-4  ">
+      <div class="mx-auto max-w-7xl px-4 h-fit min-h-screen  ">
         <div class="flex flex-col space-y-8 pb-10 pt-12 md:pt-12">
-          {/* <div class="mx-auto max-w-max rounded-full border bg-gray-50 p-1 px-3">
-            <p class="text-center text-xs font-semibold leading-normal md:text-sm">
-              Share your thoughts
-            </p>
-          </div> */}
+
           <p class="text-center text-3xl font-bold text-sky-950 md:text-5xl md:leading-10">
             Love to hear from you
           </p>

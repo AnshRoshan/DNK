@@ -3,9 +3,9 @@ import Footer from "./Footer";
 import Header from "./Header";
 import AuthHeader from "./AuthHeader";
 
-const Layout = ({ children, isLoggedIn=true }) => {
+const Layout = ({ children, isLoggedIn }) => {
   return (
-    <div>
+    <div className="h-fit">
       {isLoggedIn ? <AuthHeader /> : <Header />}
       <main style={{ minHeight: "70vh" }}>{children}</main>
       <Footer />
