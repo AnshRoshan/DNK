@@ -40,7 +40,7 @@ function Header() {
                   <img src='/logo.png' alt='image' width='54' height='54' />
                 </div>
                 <div className='pt-4 px-2'>
-                  <span className='font-bold'>DNK</span>
+                  <span className='font-bold text-white'>DNK</span>
                 </div>
               </div>
             </Link>
