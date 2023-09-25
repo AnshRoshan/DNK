@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "./Layout/Layout"
+import { Link } from "react-router-dom"
 
 function Signup() {
   return (
@@ -13,13 +14,10 @@ function Signup() {
               </h2>
               <p className='mt-2 text-base text-gray-600'>
                 Already have an account?{" "}
-                <a
-                  href='#'
-                  title=''
-                  className='font-medium text-black transition-all duration-200 hover:underline'
-                >
-                  Sign In
-                </a>
+                <Link 
+                to="/login"
+                className="font-medium text-black transition-all duration-200 hover:underline"
+                >Sign In</Link>
               </p>
               <form action='#' method='POST' className='mt-8'>
                 <div className='space-y-5'>

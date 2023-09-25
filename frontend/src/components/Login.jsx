@@ -1,6 +1,7 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
 import Layout from "../components/Layout/Layout"
+import { Link } from 'react-router-dom'
 function Login() {
   return (
     <Layout>
@@ -24,16 +25,21 @@ function Login() {
             <h2 className="text-center text-2xl font-bold leading-tight text-black">
               Sign in to your account
             </h2>
-            <p className="mt-2 text-center text-sm text-gray-600 ">
-              Don&apos;t have an account?{' '}
-              <a
-                href="#"
-                title=""
+            <p className="mt-2 text-center text-sm text-gray-600">
+              Don't have an account?{' '}  
+              <Link 
+                to="/signup"
                 className="font-semibold text-black transition-all duration-200 hover:underline"
               >
                 Create a free account
-              </a>
+              </Link>
             </p>
+            <Link 
+    to="/signup"
+    className="font-semibold text-black transition-all duration-200 hover:underline"
+  >
+    Create a free account
+  </Link>
             <form action="#" method="POST" className="mt-8">
               <div className="space-y-5">
                 <div>
