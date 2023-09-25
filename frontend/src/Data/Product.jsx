@@ -55,4 +55,34 @@ export const Product = [
     rating: 4.6, 
     image: 'https://th.bing.com/th?id=OPA.dgdMFCQdWFvI6Q474C474&w=592&h=550&o=5&pid=21.1'
   },
+  {
+    id: 8,
+    name: "Organic Honey - 500g",
+    description:
+      "Pure and organic honey from local beekeepers. Perfect for sweetening your tea or drizzling over pancakes.",
+    price: 9.99,
+    rating: 4.9,
+    image: "https://naturefirst.com.au/pub/media/catalog/product/cache/3cde752ba1f0d4b30a9d2d3cf7b3bbf0/7/9/7963783.jpg",
+    category: "Agro and Food Processing Products",
+  },
+  {
+    id: 9,
+    name: "Leather Laptop Bag - Brown",
+    description:
+      "Premium quality leather laptop bag in classic brown color. Stylish and functional for your daily commute.",
+    price: 99.99,
+    rating: 4.8,
+    image: "https://i5.walmartimages.com/asr/4498da3d-b135-49a6-b211-f7aa3751811e_1.395202bc483a54f22416aca372efe4f8.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    category: "Leather and Footwear",
+  },
+  {
+    id: 10,
+    name: "Handmade Gemstone Necklace",
+    description:
+      "Exquisite handmade gemstone necklace featuring authentic, locally sourced gemstones. A unique piece of jewelry.",
+    price: 79.99,
+    rating: 4.5,
+    image: "https://m.media-amazon.com/images/I/41-I4dPru5L.jpg",
+    category: "Jewellery and Gems",
+  },
 ];
