@@ -7,7 +7,7 @@ const Layout = ({ children, isLoggedIn=true}) => {
   return (
     <div className="h-fit">
       {isLoggedIn ? <AuthHeader /> : <Header />}
-      <main style={{ minHeight: "70vh" }}>{children}</main>
+      <main className="min-h-full">{children}</main>
       <Footer />
     </div>
   );
