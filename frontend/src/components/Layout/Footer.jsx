@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="text-center ">
-            Made by Team ArchZen 
+            Made by Team Code Innovators
           </div>
         </div>
       </section>
