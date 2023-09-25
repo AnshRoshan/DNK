@@ -26,13 +26,14 @@ function Login() {
             </h2>
             <p className="mt-2 text-center text-sm text-gray-600 ">
               Don&apos;t have an account?{' '}
-              <a
+              
+              {/* <a
                 href="#"
                 title=""
                 className="font-semibold text-black transition-all duration-200 hover:underline"
               >
                 Create a free account
-              </a>
+              </a> */}
             </p>
             <form action="#" method="POST" className="mt-8">
               <div className="space-y-5">
