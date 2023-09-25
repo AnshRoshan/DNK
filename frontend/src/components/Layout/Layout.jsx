@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import AuthHeader from "./AuthHeader";
 
-const Layout = ({ children, isLoggedIn }) => {
+const Layout = ({ children, isLoggedIn=true}) => {
   return (
     <div className="h-fit">
       {isLoggedIn ? <AuthHeader /> : <Header />}
