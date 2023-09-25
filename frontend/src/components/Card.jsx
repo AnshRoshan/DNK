@@ -3,11 +3,9 @@ import ReactStars from "react-stars"
 function Card({ title, image, price, rating, description, link }) {
   return (
     <div>
-      <div className='max-w-2xl mx-auto'>
+      <div className='max-w-2xl mx-1'>
         <div className='bg-white shadow-md rounded-lg max-w-sm  '>
-          <a href='#'>
-            <img className='rounded-t-lg p-8' src={image} alt={ description} />
-          </a>
+            <img className='rounded-t-lg p-8 max-h-64 mx-auto' src={image} alt={ description} />
           <div className='px-5 pb-5'>
             <a href={link}>
               <h3 className='text-gray-900 font-semibold text-xl tracking-tight '>{title}</h3>
