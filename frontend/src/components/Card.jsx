@@ -3,7 +3,7 @@ import ReactStars from "react-stars"
 function Card({ title, image, price, rating, description, link }) {
   return (
     <div>
-      <div className='max-w-2xl mx-1'>
+      <div className='max-w-2xl mx-auto'>
         <div className='bg-white shadow-md rounded-lg max-w-sm  '>
             <img className='rounded-t-lg p-8 max-h-64 mx-auto' src={image} alt={ description} />
           <div className='px-5 pb-5'>
@@ -17,7 +17,7 @@ function Card({ title, image, price, rating, description, link }) {
               </span>
             </div>
             <div className='flex items-center justify-between'>
-              <span className='text-3xl font-bold text-gray-900'>{price}</span>
+              <span className='text-3xl font-bold text-gray-900 mr-4'>$ {price}</span>
               <div>
                 <a
                   href='#'

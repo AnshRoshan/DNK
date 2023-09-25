@@ -36,7 +36,7 @@ export const Product = [
     name: 'Stainless Steel Water Bottle',
     description: 'Vacuum insulated, double walled, leak proof, keeps drinks hot/cold',
     price: 19.99,
-    rating: 4.6,
+    rating: 1.6,
     image: 'https://th.bing.com/th?id=OPA.QBKxYkXwfPNX6w474C474&w=592&h=550&o=5&pid=21.1'
   },
   {
@@ -44,7 +44,7 @@ export const Product = [
     name: 'Organic Basmati Rice', 
     description: 'Premium aged basmati rice, 100% organic, aromatic long grains',
     price: 11.99,
-    rating: 4.8,
+    rating: 2.8,
     image: 'https://th.bing.com/th?id=OPA.WJseZ6oF8jeU2Q474C474&w=592&h=550&o=5&pid=21.1'
   },
   {
