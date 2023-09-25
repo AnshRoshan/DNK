@@ -37,12 +37,12 @@ function Header() {
           <Link to="/">
             <div className='flex pt-0'>
              <div><img 
-              src="/images/about.png" 
+              src="/logo.png" 
               alt="image"
               width="54" 
               height="54"
             /></div>
-            <div className='pt-1'>
+            <div className='pt-4 px-2'>
             <span className="font-bold">DNK</span>
             </div>
               
