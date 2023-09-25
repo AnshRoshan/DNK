@@ -1,7 +1,25 @@
-
+import Layout from "../components/Layout/Layout"
 
 export default function Profile() {
   return (
+    <Layout>
+       <div className="flex">
+      <div className="h-22 w-22 max-h-22 max-w-22">
+        <img 
+        className=" h-22 w-22 object-cover rounded-full border-2 border-gray-300"
+        src="https://i.imgflip.com/29c5xr.jpg" 
+        alt=""
+      /></div>
+
+      <div className="ml-4">
+        <div className="text-sm font-medium text-gray-900">
+          Margot Foster
+        </div>
+        <div className="text-sm text-gray-500">
+          margotfoster@example.com
+        </div>
+      </div>
+    </div>
     <div className="max-w-7xl mx-auto p-4">
       <div className="bg-white shadow overflow-hidden sm:rounded-lg">
         <div className="px-4 py-5 sm:px-6">
@@ -45,5 +63,34 @@ export default function Profile() {
       </div>
 
     </div>
+    <div className="bg-gray-100 p-4 max-w-55 rounded-md">
+
+      <div className="flex justify-between">
+      
+        <div>
+          <p className="text-sm font-medium text-gray-900">
+            '12122001'
+          </p>
+
+          <p className="text-xs text-gray-700">
+            'Delivered'
+          </p>
+        
+        </div>
+
+        <div className="text-right">
+          <p className="text-lg font-semibold text-indigo-600">
+            2
+          </p>
+        
+          <p className="text-base font-medium text-gray-900">
+            999 
+          </p>
+        </div>
+      
+      </div>
+
+    </div>
+    </Layout>
   )
 }
