@@ -6,6 +6,8 @@ import Policy from "./pages/Policy";
 import Pagenotfound from "./pages/Pagenotfound";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Profile from "./pages/Profile";
+import Cart from "./pages/Cart";
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
         <Route path="/policy" element={<Policy />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/profile" element={<Profile/>}/>
+        <Route path="/profile" element={<Profile/>}/>
         <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </>
