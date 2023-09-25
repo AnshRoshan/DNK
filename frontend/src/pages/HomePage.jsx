@@ -5,7 +5,7 @@ import { Product } from "../Data/Product"
 const HomePage = () => {
   return (
     <Layout>
-      <div className="flex flex-wrap gap-4 bg-slate-500 p-12">
+      <div className='flex flex-wrap gap-4 h-screen bg-slate-700 p-12 '>
         {Product.map((product) => (
           <Card
             key={product.id}
