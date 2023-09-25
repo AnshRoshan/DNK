@@ -33,21 +33,17 @@ function Header() {
     <div className="relative w-full  bg-sky-950">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
-          <span>
-          <Link to="/">
-            <div className='flex pt-0'>
-             <div><img 
-              src="/images/about.png" 
-              alt="image"
-              width="54" 
-              height="54"
-            /></div>
-            <div className='pt-1'>
-            <span className="font-bold">DNK</span>
-            </div>
-              
-            </div>
-          </Link> 
+        <span>
+            <Link to='/'>
+              <div className='flex pt-0'>
+                <div>
+                  <img src='/logo.png' alt='image' width='54' height='54' />
+                </div>
+                <div className='pt-4 px-2'>
+                  <span className='font-bold'>DNK</span>
+                </div>
+              </div>
+            </Link>
           </span>
         </div>
         <div className="hidden grow items-start lg:flex">
