@@ -4,6 +4,7 @@ import Layout from "../components/Layout/Layout";
 const Policy = () => {
   return (
     <Layout>
+      {/* <div></div> */}
       <div className='row contactus '>
         
         <div className='col-md-4 mx-12'>
