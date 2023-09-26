@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div>
       <hr className='mt-80' />
-      <section className='relative overflow-hidden bg-sky-950 text-white py-8'>
-        <div className='container relative z-10 mx-auto px-4'>
+      <section className='relative overflow-hidden bg-sky-950 text-white py-8 h-50'>
+        <div className='container relative z-10 mx-auto px-4 py-10'>
           <div className='-m-8 flex flex-wrap items-center justify-between'>
             <div className='w-auto p-8'>
               <a href='#'>
