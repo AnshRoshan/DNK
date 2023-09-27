@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <div>
@@ -32,7 +32,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className='p-5'>
-                  <a className='font-medium text-white-600 hover:text-white-700' href='/contact'>
+                  <a
+                    className='font-medium text-white-600 hover:text-white-700'
+                    href='/contact'
+                  >
                     Contact Us
                   </a>
                 </li>
@@ -97,13 +100,13 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="text-center ">
-            Made by Team: <span className="font-bold uppercase shadow ">Code Innovators</span>
+          <div className='text-center '>
+            Made by Team: <span className='font-bold uppercase shadow '>Code Innovators</span>
           </div>
         </div>
       </section>
     </div>
   )
-};
+}
 
-export default Footer;
+export default Footer

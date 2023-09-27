@@ -4,8 +4,8 @@ function Card({ title, image, price, rating, description, link }) {
   return (
     <div>
       <div className='max-w-2xl mx-auto'>
-        <div className='bg-white shadow-md rounded-lg max-w-sm  '>
-            <img className='rounded-t-lg p-8 max-h-64 mx-auto' src={image} alt={ description} />
+        <div className='shadow-md bg-slate-300 rounded-lg max-w-sm'>
+          <img className='rounded-t-lg p-8 max-h-64 mx-auto' src={image} alt={description} />
           <div className='px-5 pb-5'>
             <a href={link}>
               <h3 className='text-gray-900 font-semibold text-xl tracking-tight '>{title}</h3>
