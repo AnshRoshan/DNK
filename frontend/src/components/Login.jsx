@@ -2,6 +2,7 @@ import React from 'react'
 import { ArrowRight } from 'lucide-react'
 import Layout from "../components/Layout/Layout"
 import { Link } from 'react-router-dom'
+import ButtonGroup from '../components/ButtonGroup'
 function Login() {
   return (
     <Layout>
@@ -34,12 +35,9 @@ function Login() {
                 Create a free account
               </Link>
             </p>
-            <Link 
-    to="/signup"
-    className="font-semibold text-black transition-all duration-200 hover:underline"
-  >
-    Create a free account
-  </Link>
+            <div className='mt-3 mx-2'>
+            <ButtonGroup></ButtonGroup>
+            </div>
             <form action="#" method="POST" className="mt-8">
               <div className="space-y-5">
                 <div>
