@@ -9,12 +9,14 @@ import Signup from "./components/Signup"
 import Profile from "./pages/Profile"
 import Cart from "./pages/Cart"
 import Adminpage from "./pages/Adminpage"
+import Checkout from "./mdb/Checkout"
 
 function App() {
   return (
     <>
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/checkout' element={<Checkout />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/policy' element={<Policy />} />

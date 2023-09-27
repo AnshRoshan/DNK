@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Orders } from "../Data/Order"
 import Layout from "../components/Layout/Layout"
+import { Link } from "react-router-dom"
 const Cart = () => {
   const [cartItems, setCartItems] = useState(Orders)
 
@@ -49,9 +50,12 @@ const Cart = () => {
         )}
         <div className='mt-4 flex justify-between'>
           <span className='text-xl font-semibold'>Total: ${calculateTotal()}</span>
-          <button className='bg-blue-500 text-white px-4 py-2 rounded-md'>
-            Proceed to Checkout
-          </button>
+          
+          <Link to="/checkout">
+            <button className='bg-blue-500 text-white px-4 py-2 rounded-md'>
+              Proceed to Checkout
+            </button>
+          </Link>
         </div>
         {/* <div className='mt-4'>
         </div> */}
