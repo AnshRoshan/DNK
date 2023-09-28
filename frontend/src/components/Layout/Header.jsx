@@ -60,17 +60,15 @@ function Header() {
                 </a>
               </li>
             ))}
-            <li>
-              <Link to='/cart'>
-                <span className='cart-icon'>
-                  <i className='fa fa-shopping-cart'></i>
-                  {cartCount > 0 && <span className='cart-count'>{cartCount}</span>}
-                </span>
-              </Link>
-            </li>
           </ul>
         </div>
         <div className='hidden space-x-2 lg:block'>
+          <NavLink to='/cart'>
+            <span className='cart-icon'>
+              <i className='fa fa-shopping-cart'></i>
+              {cartCount > 0 && <span className='cart-count'>{cartCount}</span>}
+            </span>
+          </NavLink>
           <NavLink
             to='/signup'
             className='rounded-md border px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black'
