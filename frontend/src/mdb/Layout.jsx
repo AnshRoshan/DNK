@@ -160,7 +160,8 @@ export default function Header({ children }) {
             </button>
             <button
               type='button'
-              className='btn btn-light shadow-0 text-primary pt-2 border border-white'
+              className='btn btn-outline-light  shadow-0 pt-2 ml-2 '
+              // className='btn btn-light shadow-0 text-primary pt-2 '
             >
               <span className='pt-1'>Purchase now</span>
             </button>
