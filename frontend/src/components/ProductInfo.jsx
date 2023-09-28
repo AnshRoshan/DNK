@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../mdb/Layout"
+import Layout from "../mdb/LayoutMdb"
 import { useParams } from "react-router-dom"
 function ProductInfo() {
   const { id } = useParams()

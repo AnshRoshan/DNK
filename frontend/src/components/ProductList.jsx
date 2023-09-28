@@ -1,4 +1,5 @@
-import { ProductData } from "../Data/ProductData"
+// import { ProductData } from "../Data/ProductData"
+import { Product } from "../Data/Product"
 import CardProduct from "./CardProduct"
 function ProductList() {
   return (
@@ -9,7 +10,7 @@ function ProductList() {
         </header>
 
         <div className='row'>
-          {ProductData.map((product) => (
+          {Product.map((product) => (
             <CardProduct key={product.id} product={product} />
           ))}
         </div>

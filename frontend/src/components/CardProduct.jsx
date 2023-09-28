@@ -14,7 +14,7 @@ function Card({ product }) {
           />
         </Link>
         <div className='card-body d-flex flex-column'>
-          <h5 className='card-title'>{product.title}</h5>
+          <h5 className='card-title'>{product.name}</h5>
           <p className='card-text'>{`$${product.price}`}</p>
           <div className='card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto'>
             <a href='#!' className='btn btn-primary shadow-0 me-1'>

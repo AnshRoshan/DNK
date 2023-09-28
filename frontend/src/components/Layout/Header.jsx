@@ -29,7 +29,7 @@ function Header() {
   }
 
   return (
-    <div className='relative w-full  bg-sky-950'>
+    <div className='relative w-full  bg-slate-600'>
       <div className='mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8'>
         <div className='inline-flex items-center space-x-2'>
           <span>
@@ -60,14 +60,14 @@ function Header() {
                 </a>
               </li>
             ))}
-                    <li>
-          <Link to="/cart">
-            <span className="cart-icon">
-              <i className="fa fa-shopping-cart"></i>
-              {cartCount > 0 && <span className="cart-count">{cartCount}</span>}
-            </span>
-          </Link>
-        </li>
+            <li>
+              <Link to='/cart'>
+                <span className='cart-icon'>
+                  <i className='fa fa-shopping-cart'></i>
+                  {cartCount > 0 && <span className='cart-count'>{cartCount}</span>}
+                </span>
+              </Link>
+            </li>
           </ul>
         </div>
         <div className='hidden space-x-2 lg:block'>

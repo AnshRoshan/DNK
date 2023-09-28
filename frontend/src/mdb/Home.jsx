@@ -1,5 +1,5 @@
 import ProductList from "../components/ProductList"
-import Layout from "../mdb/Layout"
+import Layout from "./LayoutMdb"
 export default function Home() {
   return (
     <Layout>
