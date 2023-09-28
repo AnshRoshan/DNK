@@ -3,6 +3,7 @@ import Layout from "../components/Layout/Layout"
 import Card from "../components/Card"
 import { Product } from "../Data/Product"
 import SearchBar from "../components/SearchBar"
+import ImageSlider from "../components/ImageSlider"
 const HomePage = () => {
   return (
     <Layout>
